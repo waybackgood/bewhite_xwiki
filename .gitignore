@@ -1,0 +1,6 @@
+target/
+package/
+*.jar
+*.zip
+.idea/
+.vscode/

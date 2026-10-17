@@ -1,0 +1,16 @@
+<!-- Insert this declaration before the existing XWiki <filter> declarations. -->
+<filter>
+  <filter-name>userAgentGate</filter-name>
+  <filter-class>lab.UserAgentGateFilter</filter-class>
+  <init-param>
+    <param-name>allowedUserAgent</param-name>
+    <param-value>BW-SJKIM940708</param-value>
+  </init-param>
+</filter>
+
+<!-- Insert this mapping before the existing XWiki <filter-mapping> entries. -->
+<filter-mapping>
+  <filter-name>userAgentGate</filter-name>
+  <url-pattern>/*</url-pattern>
+  <dispatcher>REQUEST</dispatcher>
+</filter-mapping>
