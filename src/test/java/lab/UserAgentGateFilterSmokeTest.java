@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 public final class UserAgentGateFilterSmokeTest {
-    private static final String ALLOWED = "BW-SJKIM940708";
+    private static final String ALLOWED = "example-agent";
 
     public static void main(String[] args) throws Exception {
         UserAgentGateFilter filter = new UserAgentGateFilter();

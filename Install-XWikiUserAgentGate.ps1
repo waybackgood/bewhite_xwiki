@@ -3,8 +3,9 @@
 param(
     [string]$XWikiHome = 'C:\xwiki',
     [string]$TaskName = 'Xwiki',
+    [Parameter(Mandatory = $true)]
     [ValidatePattern('^[A-Za-z0-9-]+$')]
-    [string]$AllowedUserAgent = 'BW-SJKIM940708'
+    [string]$AllowedUserAgent
 )
 
 $ErrorActionPreference = 'Stop'

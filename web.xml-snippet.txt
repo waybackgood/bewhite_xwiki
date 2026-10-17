@@ -4,7 +4,7 @@
   <filter-class>lab.UserAgentGateFilter</filter-class>
   <init-param>
     <param-name>allowedUserAgent</param-name>
-    <param-value>BW-SJKIM940708</param-value>
+    <param-value>REPLACE-WITH-DEPLOYMENT-VALUE</param-value>
   </init-param>
 </filter>
 
